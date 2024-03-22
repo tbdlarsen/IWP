@@ -7,7 +7,7 @@ import http from 'http';
 import fs from "fs";
 import url from "url";
 // The HTML file for the chat client. Used below.
-const clientHTML = fs.readFileSync("chatClient.html");
+const clientHTML = fs.readFileSync("sse chat/chatClient.html");
 // An array of ServerResponse objects that we're going to send events to
 let clients = [];
 // Create a new server, and listen on port 8080.
